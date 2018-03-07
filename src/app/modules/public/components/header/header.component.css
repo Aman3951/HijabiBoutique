@@ -1,0 +1,17 @@
+mat-toolbar{
+    background: none;
+    box-shadow: inset 0 0 490px #383838;
+    height: 100px; 
+  }
+
+  .icon-style{
+    height: 66px;
+    width: 94px;
+  }
+
+  .row{
+    margin: 0%;
+  }
+  .hijabi_boutique{
+    color: whitesmoke;
+  }

@@ -8,7 +8,9 @@ import { HeaderComponent } from './modules/public/components/header/header.compo
 import { NavBarComponent } from './modules/public/components/nav-bar/nav-bar.component';
 import { HomeBodyComponent } from './modules/public/components/home-body/home-body.component';
 
-
+// Angular Material 
+import { MatToolbarModule } from '@angular/material';
+import { MatTabsModule } from '@angular/material/tabs';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,9 @@ import { HomeBodyComponent } from './modules/public/components/home-body/home-bo
 
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    MatToolbarModule,
+    MatTabsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
