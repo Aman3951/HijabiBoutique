@@ -1,6 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
+import { RouterModule, Routes } from '@angular/router';
 
 import { AppComponent } from './app.component';
 import { HomePageComponent } from './modules/public/pages/home-page/home-page.component';
@@ -38,11 +38,22 @@ import { SignupComponent } from './modules/public/components/signup/signup.compo
     MatToolbarModule,
     MatTabsModule,
     MatDialogModule,
-  
+    RouterModule.forRoot([
+      { 
+        path:'',
+        component:HomePageComponent,
+      },
+      {
+        path:'login',
+        component:LoginComponent,
+      }
+    ])
+
   ],
   entryComponents: [
     SignupComponent
-    ],
+  ],
+
   providers: [],
   bootstrap: [AppComponent]
 })
