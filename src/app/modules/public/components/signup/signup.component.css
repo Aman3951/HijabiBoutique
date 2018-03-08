@@ -1,0 +1,19 @@
+.account-set-up-titlte {
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-family: Verdana,sans-serif,Helvetica,serif;
+    font-size: 15px;
+ }
+
+ .btn{
+  color: white;
+  background-color: grey;
+  font-weight: 550;
+  letter-spacing: 1px;
+  font-family: Verdana,sans-serif,Helvetica,serif;
+  font-size: 12px;
+ }
+ .btn:focus,.btn:active{
+    background-color:  #FF7E2A!important;
+    border-color: #FF7E2A !important;
+ }
