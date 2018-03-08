@@ -5,13 +5,23 @@ mat-toolbar{
   }
 
   .icon-style{
-    height: 66px;
-    width: 94px;
+    height: 60px;
+    width: 90px;
   }
 
   .row{
     margin: 0%;
   }
   .hijabi_boutique{
+    margin: auto;
     color: whitesmoke;
+    font-family: Verdana,sans-serif,Helvetica,serif;
+  }
+  .padding-left{
+    margin-left: 10%;
+    letter-spacing: 5px;
+  }
+  .header-right-icon{
+    height: 100px;
+    width: 220px;
   }

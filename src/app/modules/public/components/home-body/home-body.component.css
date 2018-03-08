@@ -1,0 +1,32 @@
+.hijabi_boutique{
+    margin: auto;
+    color: black;
+    font-family: Verdana,sans-serif,Helvetica,serif;
+    font-size: 35px;
+    letter-spacing: 10px;
+    font-weight: 500;
+  }
+  .shop_today{
+    margin: auto;
+    color: black;
+    font-family: Verdana,sans-serif,Helvetica,serif;
+    font-size: 35px;
+    letter-spacing: 4px;
+    font-weight: 700;
+  }
+  .btn-primary {
+    color: #fff;
+    background-color: black;
+    border-color: black; 
+    padding: 25px; 
+    font-size: 15px; 
+    font-weight: 700;
+    letter-spacing: 1px;
+ }
+ .btn:focus,.btn:active{
+    background-color:  #FF7E2A!important;
+    border-color: #FF7E2A !important;
+ }
+ .order-now{
+    padding-top: 15px;
+ }
