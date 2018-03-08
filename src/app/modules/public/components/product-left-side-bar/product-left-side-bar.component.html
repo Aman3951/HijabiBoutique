@@ -1,0 +1,31 @@
+<div class="side-menu">
+    <ul class="menu-content">
+      <li class="menu-item icon-fa-dashboard" tabindex="step = 'one'"  [ngClass]="{selectedmenu : stepOne}" (click)="menuDashboard()">
+        <span class="title main-item">Square Scarves</span> 
+      </li>
+      <ul class="sub-menu">
+            <li tabindex="step = 'threeone'"  [ngClass]="{selectedmenu : stepThreeOne}" (click)="menuNewQuotation()">
+                <span class="title">Satin  Waterproff</span> 
+            </li>
+          </ul>
+  
+      <li class="menu-item icon-fa-order" tabindex="step = 'two'"  [ngClass]="{selectedmenu : stepTwo}" (click)="menuOrder()">
+          <span class="title main-item">Long Scarves</span> 
+      </li>
+      <ul class="sub-menu">
+            <li  tabindex="step = 'threeone'"  [ngClass]="{selectedmenu : stepThreeOne}" (click)="menuNewQuotation()">
+                <span class="title">Cotton Long Scarves  </span> 
+            </li>
+          </ul>
+  
+      <li class="menu-item icon-fa-quotation" tabindex="step = 'three'"  [ngClass]="{selectedmenu : stepThree}" (click)="menuQuotation()">
+          <span class="title main-item">Instant Shawl</span> 
+      </li>
+      <ul class="sub-menu">
+        <li  tabindex="step = 'threeone'"  [ngClass]="{selectedmenu : stepThreeOne}" (click)="menuNewQuotation()">
+            <span class="title">Classio: Madison</span> 
+        </li>
+      </ul>
+      
+    </ul>
+  </div>

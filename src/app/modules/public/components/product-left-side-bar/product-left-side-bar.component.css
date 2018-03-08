@@ -1,0 +1,113 @@
+.menu-item{
+    font-weight: 300;
+    padding-right: 1000px;
+    color: black;
+}
+
+.selectedmenu:hover{
+    color:#F7981C;
+    font-weight: 500;
+}
+
+.side-menu ul,
+.side-menu li{
+    padding-left: 28px;
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    line-height: 35px;
+    cursor: pointer;
+    width: auto;
+}
+
+.side-menu {
+    font-size: 13px;
+    width: 100%;
+    height: 100%;
+    /* background-color: #2c3e50; */
+    letter-spacing: 1px;
+    opacity: 1;
+    min-width: 220px;
+    height: auto;
+    width: auto;
+    padding-top: 40px;
+}
+
+.side-menu .menu-content {
+    display: inline-block;
+    margin-left: 20px;
+    font-size: 13px;
+}
+
+.sub-menu{
+    text-indent: 10%;
+}
+
+.title{
+  margin-left: 4px;
+}
+.icon-fa-dashboard:before{
+    overflow: visible;
+    width: 1em;
+    content:"\f14e";
+    font-size: 18px;
+    font-family: FontAwesome;
+    height: 1em;
+    overflow: visible;
+}
+
+.icon-fa-order:before{
+    overflow: visible;
+    width: 1em;
+    content:"\f15b";
+    font-size: 15px;
+    font-family: FontAwesome;
+    height: 1em;
+    overflow: visible;
+}
+
+.icon-fa-quotation:before{
+    overflow: visible;
+    width: 1em;
+    content:"\f155";
+    font-size: 18px;
+    font-family: FontAwesome;
+    height: 1em;
+    overflow: visible;
+}
+
+.icon-fa-custom:before{
+    overflow: visible;
+    width: 1em;
+    content:"\f1b2";
+    font-size: 18px;
+    font-family: FontAwesome;
+    height: 1em;
+    overflow: visible;
+}
+
+.icon-fa-new:before{
+    overflow: visible;
+    width: 1em;
+    content:"\f067";
+    font-size: 14px;
+    font-family: FontAwesome;
+    height: 1em;
+    overflow: visible;
+}
+
+/* This class is to remove on click button shadow  */
+.btn:active,
+.btn:focus,
+.btn.active,
+.btn:active:focus {
+   background-image: none;
+   outline: 0;
+   -webkit-box-shadow: none;
+   box-shadow: none;
+}
+
+.main-item{
+font-weight: 600;
+font-size: 14px;
+}

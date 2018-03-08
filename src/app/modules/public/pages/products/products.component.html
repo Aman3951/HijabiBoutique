@@ -1,0 +1,23 @@
+<product-header></product-header>
+<div class="product-navbar">
+        <product-navbar></product-navbar>
+</div>
+
+
+
+<ng-sidebar-container class="ng-container bg-color">
+
+    <ng-sidebar [opened]="isSideBarOpen" mode="push" position="left" autoCollapseWidth="800" animate="true">
+        <div class=" ">
+            <product-left-side-bar></product-left-side-bar>
+        </div>
+    </ng-sidebar>
+
+    <div class="row" ng-sidebar-content>
+        <div class="col-md-12">
+            <h2> Here all the products will be fetched from database </h2>
+
+        </div>
+    </div>
+
+</ng-sidebar-container>
