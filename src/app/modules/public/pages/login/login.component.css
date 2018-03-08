@@ -1,0 +1,17 @@
+#background-style{
+    height: 100vh;
+    width: 100%;
+    margin: 0%;
+    background:url(/../../../../../assets/img/login-body.jpg);
+    /* background-color: red; */
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.row{
+    margin:0%;
+}
+
+.login-body{
+    margin-top: 20%;
+}

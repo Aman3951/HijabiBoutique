@@ -1,0 +1,45 @@
+.row{
+    margin: 0%;
+}
+.input-style{
+    width: 250px;
+    border: 1px solid black;
+}
+
+.label-style{
+    padding-right: 15px;
+    font-family: Verdana,sans-serif,Helvetica,serif;
+    font-size: 12px;
+   
+}
+.label-padding{
+    padding-right: 135px;
+}
+.member{
+    text-align: right;
+    padding-right: 210px;
+    font-family: Verdana,sans-serif,Helvetica,serif;
+    font-size: 15px;
+}
+.remember{
+    padding-right: 280px;
+}
+
+.btn-primary {
+    color: black;
+    background-color: white;
+    border-color: black; 
+    font-size: 12px; 
+    font-weight: 700;
+    letter-spacing: 1px;
+ }
+ btn :hover{
+     background-color: #FF7E2A;
+ }
+ .btn:focus,.btn:active{
+    background-color:  #FF7E2A!important;
+    border-color: #FF7E2A !important;
+ }
+ .login-signup{
+     padding-right: 135px;
+ }

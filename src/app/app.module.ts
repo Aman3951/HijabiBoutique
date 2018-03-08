@@ -11,6 +11,9 @@ import { HomeBodyComponent } from './modules/public/components/home-body/home-bo
 // Angular Material 
 import { MatToolbarModule } from '@angular/material';
 import { MatTabsModule } from '@angular/material/tabs';
+import { LoginHeaderComponent } from './modules/public/components/login-header/login-header.component';
+import { LoginBodyComponent } from './modules/public/components/login-body/login-body.component';
+import { LoginComponent } from './modules/public/pages/login/login.component';
 
 @NgModule({
   declarations: [
@@ -19,6 +22,9 @@ import { MatTabsModule } from '@angular/material/tabs';
     HeaderComponent,
     NavBarComponent,
     HomeBodyComponent,
+    LoginHeaderComponent,
+    LoginBodyComponent,
+    LoginComponent,
 
   ],
   imports: [
